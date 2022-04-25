@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="#">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header_wrapper">
-                <a href="#" class="header_logo"><span>Web</span>Studio</a>
+                <a href="#" class="header_logo"><span class="word_web">Web</span>Studio</a>
                     <nav class="header_menu">
                         <ul class="header_lists">
                             <li class="header_list">
@@ -37,40 +37,45 @@
         </div>
     </header>
     <main class="main">
-        <div class="container">
         <!--большой баннер-->
         <section class="banner">
-            <h1 class="banner_title">Эффективные решения для вашего бизнеса</h1>
-            <button class="banner_button" type="button">Заказать услугу</button>
+            <div class="container">
+                <h1 class="banner_title">Эффективные решения для вашего бизнеса</h1>
+                <button class="banner_button" type="button">Заказать услугу</button>
+            </div>
         </section>
         <!--особенности-->
         <section class="peculiarities">
-            <ul class="peculiarities_lists">
-                <li class="peculiarities_list">
-                    <h4 class="peculiarities_list__title">Внимание к деталям</h4>
-                    <p class="peculiarities_list__descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li class="peculiarities_list">
-                    <h4 class="peculiarities_list__title">Пунктуальность</h4>
-                    <p class="peculiarities_list__descr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li class="peculiarities_list">
-                    <h4 class="peculiarities_list__title">Планирование</h4>
-                    <p class="peculiarities_list__descr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li class="peculiarities_list">
-                    <h4 class="peculiarities_list__title">Современные технологии</h4>
-                    <p class="peculiarities_list__descr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="peculiarities_lists">
+                    <li class="peculiarities_list">
+                        <h4 class="peculiarities_list__title">Внимание к деталям</h4>
+                        <p class="peculiarities_list__descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="peculiarities_list">
+                        <h4 class="peculiarities_list__title">Пунктуальность</h4>
+                        <p class="peculiarities_list__descr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="peculiarities_list">
+                        <h4 class="peculiarities_list__title">Планирование</h4>
+                        <p class="peculiarities_list__descr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="peculiarities_list">
+                        <h4 class="peculiarities_list__title">Современные технологии</h4>
+                        <p class="peculiarities_list__descr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!--Чем мы занимаемся-->
         <section class="doing">
-            <h2 class="doing_title">Чем мы занимаемся</h2>
-            <div class="doing_images">
-                <img src="image/box/box_1.jpg" alt="box_1" width="370" class="doing_image">
-                <img src="image/box/box_2.jpg" alt="box_2" width="370" class="doing_image">
-                <img src="image/box/box_3.jpg" alt="box_3" width="370" class="doing_image">
+            <div class="container">
+                <h2 class="doing_title">Чем мы занимаемся</h2>
+                <div class="doing_images">
+                    <img src="image/box/box_1.jpg" alt="box_1" width="370" class="doing_image">
+                    <img src="image/box/box_2.jpg" alt="box_2" width="370" class="doing_image">
+                    <img src="image/box/box_3.jpg" alt="box_3" width="370" class="doing_image">
+                </div>
             </div>
         </section>
         <!--Наша команда-->
@@ -98,15 +103,28 @@
                         <h4 class="team_item__title">Михаил Ермаков</h4>
                         <p class="team_item__subtitle">UI Designer</p>
                     </div>
-                    
                 </div>
-
             </div>
         </section>
-        
-
-       
-        </div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="header_logo"><span class="word_web">Web</span><span class="word_studio">Studio</span></a>
+            <ul class="footer_contacts">
+                <li class="footer_contact">
+                    <address class="footer_contact__address">
+                        <a href="https://goo.gl/maps/uZdPTZuoHkC13SAr6" target="_blank" class="footer_contact__address-link">г. Киев, пр-т Леси Украинки, 26</a>
+                    </address>
+                </li>
+                <li class="footer_contact">
+                    <a class="footer_contact__email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="footer_contact">
+                    <a class="footer_contact__phone" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
 </body>
 </html>
